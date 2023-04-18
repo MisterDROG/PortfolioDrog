@@ -3,7 +3,6 @@ import logo from '../../images/ProtfolioDrog.png'
 
 function Header() {
 
-
     return (
         <header className='header'>
             <div className='header__logo'>
