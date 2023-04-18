@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo__image {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0 0;
+}
+
+.header__logo__moto {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__menu__link {
+    margin: 10px;
+    font-weight: bold;
+}
