@@ -1,0 +1,12 @@
+@import '../../utils/generalStyles.scss';
+
+.projects-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-holder__title {
+    font-size: $textBigSize;
+    font-weight: bold;
+}

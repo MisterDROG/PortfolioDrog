@@ -1,0 +1,31 @@
+@import '../../utils/generalStyles.scss';
+
+.stack-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.stack-holder__title {
+    font-size: $textBigSize;
+    font-weight: bold;
+}
+
+.stack-holder__tech-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+.stack-holder__tech-holder__img {
+    max-width: 120px;
+    margin: 10px;
+    filter: grayscale(1);
+}
+
+.stack-holder__tech-holder__img:hover {
+    filter: grayscale(0);
+}

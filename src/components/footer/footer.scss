@@ -1,6 +1,13 @@
+@import '../../utils/generalStyles.scss';
+
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column-reverse;
+    }
 }
 
 .footer__credentials {}
@@ -9,6 +16,11 @@
     margin: 30px 100px;
     font-weight: bold;
     text-align: start;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 }
 
 .footer__contacts {}
