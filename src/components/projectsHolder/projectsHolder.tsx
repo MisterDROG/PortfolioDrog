@@ -1,15 +1,20 @@
-import Project from '../project/projects'
+import { projectType } from '../../utils/generalTypes'
+import Project from '../project/project'
 import './projectsHolder.scss'
 
-function projectsHolder() {
+interface projectsHolderProps {
+    projects: projectType[]
+}
+
+function projectsHolder(props: projectsHolderProps) {
 
     return (
         <section className='projects-holder'>
             <p className='projects-holder__title'>PROJECTS</p>
-            <Project />
-            <Project />
-            <Project />
-            <Project />
+            {props.projects.map((project) => {
+                return <Project key={project.id} project={project} />
+            })}
+            <p className='projects-holder__subtitle'>You can also see my other projects by visiting my GITHUB</p>
         </section>
     )
 }

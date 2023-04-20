@@ -1,1 +1,1 @@
-My frontend portfolio. Welcome to explore it.
+My frontend portfolio. Welcome to explore it. (Currently in develop)

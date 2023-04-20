@@ -5,13 +5,14 @@ import Lead from '../lead/lead';
 import ProjectsHolder from '../projectsHolder/projectsHolder';
 import StackHolder from '../stackHolder/stackHolder';
 import './App.scss';
+import { porjectsDB } from '../../utils/projectsDB'
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Lead />
-      <ProjectsHolder />
+      <ProjectsHolder projects={porjectsDB} />
       <StackHolder />
       <Contacts />
       <Footer />
