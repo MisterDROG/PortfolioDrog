@@ -73,8 +73,10 @@
     left: 0;
     transition: 0.3s ease-out;
     opacity: 0;
+    visibility: hidden;
 }
 
 .header__menu__blur.active {
     opacity: 1;
+    visibility: visible;
 }
