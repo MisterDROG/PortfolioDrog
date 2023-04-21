@@ -24,6 +24,8 @@ export const porjectsDB: projectType[] = [
             'Firebase - for online data storage'
         ],
         mobileImg: TodolloMob,
+        githubLink: '',
+        webpageLink: '',
     },
     {
         name: 'ToDollo',
@@ -46,5 +48,7 @@ export const porjectsDB: projectType[] = [
             'Firebase - for online data storage'
         ],
         mobileImg: TodolloMob,
+        githubLink: '',
+        webpageLink: '',
     },
 ]

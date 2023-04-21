@@ -59,3 +59,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.project__link {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: $backgroundColorSecondary;
+    text-decoration: none;
+}
+
+.project__link:hover {
+    background-color: $backgroundColorPrimary;
+    color: black;
+    box-shadow: 0px 0px 7px 3px $backgroundColorSecondary;
+}

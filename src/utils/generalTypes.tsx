@@ -7,4 +7,6 @@ export type projectType = {
     techologies: string,
     technologiesPoints: string[],
     mobileImg: string,
+    githubLink: string,
+    webpageLink: string,
 }

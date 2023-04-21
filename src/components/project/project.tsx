@@ -32,8 +32,9 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
+                    <a className='project__link' href={props.project.githubLink}>GitHub</a>
+                    <a className='project__link' href={props.project.webpageLink}>Open site</a>
                 </div>
-
                 <img className='project__mobile__img' style={{ backgroundImage: `url(${props.project.mobileImg})` }} src={mocMobile} alt="mobile screenshot" />
             </div>
         </div>

@@ -23,6 +23,7 @@
 .stack-holder__tech-holder__img {
     max-width: 120px;
     margin: 10px;
+    z-index: -1;
     filter: grayscale(1);
 }
 

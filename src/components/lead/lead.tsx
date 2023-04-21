@@ -4,7 +4,7 @@ import myPhoto from '../../images/MyPhoto.png'
 function Lead() {
 
     return (
-        <section className='lead'>
+        <section className='lead' id='lead'>
             <div className='lead__info'>
                 <p className='lead__info__text lead__text_size_middle'>Hello, It's Me</p>
                 <p className='lead__info__text lead__text_size_big'>IGOR DROGAITSEV</p>

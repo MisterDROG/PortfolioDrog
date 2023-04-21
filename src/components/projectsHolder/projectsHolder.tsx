@@ -9,7 +9,7 @@ interface projectsHolderProps {
 function projectsHolder(props: projectsHolderProps) {
 
     return (
-        <section className='projects-holder'>
+        <section className='projects-holder' id='projects'>
             <p className='projects-holder__title'>PROJECTS</p>
             {props.projects.map((project) => {
                 return <Project key={project.id} project={project} />
