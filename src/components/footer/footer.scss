@@ -1,6 +1,16 @@
 @import '../../utils/generalStyles.scss';
 
 .footer {
+    padding: 0px 40px 10px;
+}
+
+.footer__row {
+    background-color: rgb(167, 167, 167);
+    height: 1px;
+    margin: 20px 0px;
+}
+
+.footer_links-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,10 +20,14 @@
     }
 }
 
-.footer__credentials {}
+.footer__credentials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .footer__text {
-    margin: 30px 100px;
+    margin: 10px 10px;
     font-weight: bold;
     text-align: start;
 
@@ -23,4 +37,33 @@
     }
 }
 
-.footer__contacts {}
+.footer__link {
+    color: black;
+    margin: 10px 10px;
+    font-weight: bold;
+    text-align: start;
+    text-decoration: none;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+
+.footer__link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 40px;
+
+}

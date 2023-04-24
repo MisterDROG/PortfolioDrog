@@ -3,8 +3,8 @@
 .stack-holder {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    margin: auto;
+    max-width: 1200px;
 }
 
 .stack-holder__title {
@@ -17,16 +17,11 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 900px;
+    margin: 0 20px;
 }
 
 .stack-holder__tech-holder__img {
-    max-width: 120px;
+    max-width: 80px;
+    height: 100%;
     margin: 10px;
-    z-index: 0;
-    filter: grayscale(1);
-}
-
-.stack-holder__tech-holder__img:hover {
-    filter: grayscale(0);
 }
