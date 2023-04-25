@@ -7,11 +7,10 @@
 }
 
 .projects-holder__title {
-    font-size: $textBigSize;
-    font-weight: bold;
+    @include titlesStyle
 }
 
 .projects-holder__subtitle {
     font-size: $textMiddleSize;
-    font-weight: bold;
+    font-weight: 400;
 }

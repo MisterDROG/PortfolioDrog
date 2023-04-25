@@ -8,15 +8,13 @@
 }
 
 .contacts__title {
-    text-align: center;
-    font-weight: bold;
-    font-size: $textBigSize;
+    @include titlesStyle
 }
 
 .contacts__text {
     text-align: center;
-    font-weight: bold;
-    font-size: $textMiddleSize;
+    font-weight: 400;
+    font-size: $textLowSize;
     margin: 0px 20px 20px 20px;
 }
 
@@ -25,7 +23,7 @@
     margin: 0px 0px 20px 0px;
     padding: 10px;
     border-radius: 15px;
-    font-weight: bold;
+    font-weight: 400;
     color: white;
     background-color: $backgroundColorSecondary;
     text-decoration: none;

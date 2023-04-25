@@ -3,13 +3,11 @@
 .stack-holder {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    max-width: 1200px;
+    align-items: center;
 }
 
 .stack-holder__title {
-    font-size: $textBigSize;
-    font-weight: bold;
+    @include titlesStyle
 }
 
 .stack-holder__tech-holder {
@@ -17,6 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 1200px;
     margin: 0 20px;
 }
 

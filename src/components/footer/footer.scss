@@ -28,7 +28,7 @@
 
 .footer__text {
     margin: 10px 10px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: start;
 
     @media screen and (max-width: 700px) {
@@ -40,7 +40,7 @@
 .footer__link {
     color: black;
     margin: 10px 10px;
-    font-weight: bold;
+    font-weight: 400;
     text-align: start;
     text-decoration: none;
 
@@ -65,5 +65,4 @@
 
 .footer__logo {
     width: 40px;
-
 }

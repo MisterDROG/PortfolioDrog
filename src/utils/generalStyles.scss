@@ -1,4 +1,4 @@
-$textMinSize: 15px;
+$textMinSize: 17px;
 $textLowSize: 20px;
 $textMiddleSize: 30px;
 $textBigSize: 40px;
@@ -7,3 +7,15 @@ $textLargeSize: 50px;
 $backgroundColorPrimary: yellow;
 $backgroundColorSecondary: grey;
 $backgroundColorThird: black;
+
+@mixin titlesStyle {
+    width: 100vw;
+    text-align: center;
+    font-weight: bold;
+    font-size: $textBigSize;
+    font-weight: 400;
+    // background: linear-gradient(transparent 10%, lightgray 30%, transparent 40%, transparent 60%, lightgray 70%, transparent 90%);
+    width: 100%;
+    margin: 30px 0;
+    // padding: 50px 0;
+}
