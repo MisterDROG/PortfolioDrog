@@ -15,11 +15,12 @@ function Lead() {
                 <p className='lead__info__text'>This portfolio helps me to show my projects and leave contacts. Welcome!</p>
                 <div className='lead__info__link-container'>
                     <a className='lead__info__link' target='blanc' href='https://docs.google.com/document/d/1YeKjZl2yOtwuFuFGLMII5-mF98bF1GZ7XcCSACxD6aQ/edit'>Download CV</a>
-                    <LinkScroll className='lead__info__link' to='contacts' spy={true} smooth={true} offset={-60} duration={500}>Contacts</LinkScroll>
+                    <LinkScroll className='lead__info__link' to='contacts' spy={true} smooth={true} offset={-70} duration={500}>Contacts</LinkScroll>
                 </div>
             </div>
-            <img className='lead__img-container__photo' src={myPhoto} alt='photo' />
-
+            <div className='lead__img-container'>
+                <img className='lead__img-container__photo' src={myPhoto} alt='photo' />
+            </div>
         </section>
     )
 }

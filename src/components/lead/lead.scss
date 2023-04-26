@@ -18,6 +18,7 @@
     display: flex;
     flex-direction: column;
     max-width: 600px;
+    flex-shrink: 4;
 }
 
 .lead__info__text {
@@ -33,6 +34,10 @@
     font-size: $textLargeSize;
     font-weight: bold;
     margin: 10px 0;
+
+    @media screen and (max-width: 360px) {
+        font-size: $textBigSize;
+    }
 }
 
 .lead__info__subtitle {
@@ -58,7 +63,17 @@
 
 }
 
-.lead__img-container__photo {
-    max-width: 340px;
+.lead__img-container {
+    max-width: 420px;
     margin: 0 0 0 30px;
+
+    @media screen and (max-width: 720px) {
+        margin: 0 0 15px 0;
+    }
+}
+
+.lead__img-container__photo {
+    width: 100%;
+    object-fit: contain;
+    flex-shrink: 1;
 }

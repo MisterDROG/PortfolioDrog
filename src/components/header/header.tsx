@@ -24,18 +24,18 @@ function Header() {
             </div>
             {(width > 720)
                 ? <nav className='header__menu__desktop'>
-                    <LinkScroll className='header__menu__link' to='lead' spy={true} smooth={true} offset={-60} duration={500}>ABOUT ME</LinkScroll>
-                    <LinkScroll className='header__menu__link' to='projects' spy={true} smooth={true} offset={-60} duration={500}>PROJECTS</LinkScroll>
-                    <LinkScroll className='header__menu__link' to='contacts' spy={true} smooth={true} offset={-60} duration={500}>CONTACTS</LinkScroll>
+                    <LinkScroll className='header__menu__link' to='lead' spy={true} smooth={true} offset={-70} duration={500}>ABOUT ME</LinkScroll>
+                    <LinkScroll className='header__menu__link' to='projects' spy={true} smooth={true} offset={-70} duration={500}>PROJECTS</LinkScroll>
+                    <LinkScroll className='header__menu__link' to='contacts' spy={true} smooth={true} offset={-70} duration={500}>CONTACTS</LinkScroll>
                 </nav>
-                : <nav className='header__menu__mobile' onClick={menuHandler}>
-                    <img className='header__menu__button' src={menuButton} alt='menuButton' />
-                    <div className={menuOpen ? 'header__menu__bar active' : 'header__menu__bar'}>
-                        <LinkScroll className='header__menu__link' to='lead' spy={true} smooth={true} offset={-60} duration={500} onClick={menuHandler}>ABOUT ME</LinkScroll>
-                        <LinkScroll className='header__menu__link' to='projects' spy={true} smooth={true} offset={-60} duration={500} onClick={menuHandler}>PROJECTS</LinkScroll>
-                        <LinkScroll className='header__menu__link' to='contacts' spy={true} smooth={true} offset={-60} duration={500} onClick={menuHandler}>CONTACTS</LinkScroll>
+                : <nav className='header__menu__mobile'>
+                    <img className='header__menu__button' src={menuButton} alt='menuButton' onClick={menuHandler} />
+                    <div className={menuOpen ? 'header__menu__bar active' : 'header__menu__bar'} onClick={menuHandler}>
+                        <LinkScroll className='header__menu__link' to='lead' spy={true} smooth={true} offset={-70} duration={500} onClick={menuHandler}>ABOUT ME</LinkScroll>
+                        <LinkScroll className='header__menu__link' to='projects' spy={true} smooth={true} offset={-70} duration={500} onClick={menuHandler}>PROJECTS</LinkScroll>
+                        <LinkScroll className='header__menu__link' to='contacts' spy={true} smooth={true} offset={-70} duration={500} onClick={menuHandler}>CONTACTS</LinkScroll>
                     </div>
-                    <div className={menuOpen ? 'header__menu__blur active' : 'header__menu__blur'} ></div>
+                    <div className={menuOpen ? 'header__menu__blur active' : 'header__menu__blur'} onClick={menuHandler}></div>
                 </nav>
             }
 

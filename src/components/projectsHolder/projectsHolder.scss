@@ -11,11 +11,11 @@
 }
 
 .projects-holder__title {
-    @include titlesStyle
+    @include titlesStyle;
 }
 
 .projects-holder__subtitle {
-    font-size: $textLowSize;
+    font-size: $textMiddleSize;
     font-weight: 400;
 }
 

@@ -9,6 +9,11 @@
 .project__title {
     font-size: $textMiddleSize;
     font-weight: 400;
+    margin: 0 0 30px 0;
+
+    @media screen and (max-width: 700px) {
+        margin: 0 0 30px 0;
+    }
 }
 
 .project__block-container {
@@ -22,6 +27,8 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        gap: 30px;
+        margin: 0 0 30px 0;
     }
 }
 
@@ -32,6 +39,12 @@
     width: 500px;
     height: 410px;
     background-color: $backgroundColorFour;
+
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        background-color: white;
+        height: fit-content;
+    }
 }
 
 .project__desktop-img {
@@ -55,11 +68,10 @@
     flex-direction: column;
     gap: 20px;
     justify-content: start;
-    // padding: 0 0px 0 50px;
     text-align: start;
 
     @media screen and (max-width: 700px) {
-        text-align: center;
+        width: 100%;
     }
 }
 
