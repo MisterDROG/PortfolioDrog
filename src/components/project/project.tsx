@@ -11,6 +11,7 @@ function Project(props: projectProps) {
     return (
         <div className='project'>
             <p className='project__title'>{props.project.name}</p>
+
             <div className='project__block-container'>
                 <div className='project__img-container'>
                     <img className='project__desktop-img' src={props.project.desktopImg} alt="desktop screenshot" />
@@ -23,8 +24,10 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
+                    <a className='project__link' href={props.project.webpageLink}>Open site</a>
                 </div>
             </div>
+
             <div className='project__block-container'>
                 <div className='project__img-container'>
                     <img className='project__mobile-img' style={{ backgroundImage: `url(${props.project.mobileImg})` }} src={mocMobile} alt="mobile screenshot" />
@@ -37,12 +40,10 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
-                    <a className='project__link' href={props.project.githubLink}>GitHub</a>
-                    <a className='project__link' href={props.project.webpageLink}>Open site</a>
+                    <a className='project__link' href={props.project.githubLink}>Open GitHub</a>
                 </div>
-
             </div>
-        </div>
+        </div >
     )
 }
 

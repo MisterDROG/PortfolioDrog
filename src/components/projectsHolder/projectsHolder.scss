@@ -3,7 +3,11 @@
 .projects-holder {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1200px;
 }
 
 .projects-holder__title {
@@ -11,6 +15,14 @@
 }
 
 .projects-holder__subtitle {
-    font-size: $textMiddleSize;
+    font-size: $textLowSize;
     font-weight: 400;
+}
+
+.projects-holder__link {
+    @include buttonLink
+}
+
+.projects-holder__link:hover {
+    @include buttonLinkHover
 }

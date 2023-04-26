@@ -3,9 +3,7 @@
 .project {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 20px;
-    width: 1200px;
+    width: 100%;
 }
 
 .project__title {
@@ -13,20 +11,15 @@
     font-weight: 400;
 }
 
-.project_subtitle {
-    font-size: $textLowSize;
-    font-weight: bold;
-    margin: 0
-}
-
 .project__block-container {
-    width: 1200px;
     display: flex;
-    justify-content: start;
-    margin: 30px 0;
+    margin: 30px 0px;
+    width: 100%;
+    gap: 50px;
 
     @media screen and (max-width: 700px) {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center;
     }
@@ -38,16 +31,17 @@
     align-items: center;
     width: 500px;
     height: 410px;
-    background-color: lightgray;
-    flex-grow: 1;
+    background-color: $backgroundColorFour;
 }
 
 .project__desktop-img {
-    width: 500px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .project__mobile-img {
-    width: 200px;
+    max-width: 200px;
     border-radius: 32px;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,30 +49,41 @@
 }
 
 .project__text-container {
-    max-width: 700px;
-    padding: 20px;
+    width: 650px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: start;
+    // padding: 0 0px 0 50px;
     text-align: start;
-    flex-grow: 1;
+
+    @media screen and (max-width: 700px) {
+        text-align: center;
+    }
+}
+
+.project_subtitle {
+    font-size: $textLowSize;
+    font-weight: bold;
+    margin: 0
+}
+
+.project__ul-text {
+    margin: 0;
 }
 
 .project__text {
+    margin: 0;
     font-size: $textMinSize;
     text-align: start;
     line-height: 1.4;
 }
 
 .project__link {
-    margin: 20px;
-    padding: 10px;
-    border-radius: 15px;
-    font-weight: bold;
-    color: white;
-    background-color: $backgroundColorSecondary;
-    text-decoration: none;
+    @include buttonLink;
 }
 
 .project__link:hover {
-    background-color: $backgroundColorPrimary;
-    color: black;
-    box-shadow: 0px 0px 7px 3px $backgroundColorSecondary;
+    @include buttonLinkHover;
 }

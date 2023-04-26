@@ -5,8 +5,10 @@ $textBigSize: 40px;
 $textLargeSize: 50px;
 
 $backgroundColorPrimary: yellow;
-$backgroundColorSecondary: grey;
+// $backgroundColorSecondary: rgb(159, 159, 159);
+$backgroundColorSecondary: rgb(0, 0, 0);
 $backgroundColorThird: black;
+$backgroundColorFour: rgb(236, 236, 236);
 
 @mixin titlesStyle {
     width: 100vw;
@@ -18,4 +20,23 @@ $backgroundColorThird: black;
     width: 100%;
     margin: 30px 0;
     // padding: 50px 0;
+}
+
+@mixin buttonLink {
+    width: fit-content;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    color: white;
+    background-color: $backgroundColorSecondary;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@mixin buttonLinkHover {
+    background-color: $backgroundColorPrimary;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0px 0px 7px 3px $backgroundColorSecondary;
 }
