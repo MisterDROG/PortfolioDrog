@@ -21,6 +21,8 @@ $backgroundColorFour: rgb(236, 236, 236);
 
 @mixin buttonLink {
     width: fit-content;
+    text-align: center;
+    font-size: $textMinSize;
     margin: 0;
     padding: 10px;
     border-radius: 10px;
