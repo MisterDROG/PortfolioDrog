@@ -9,9 +9,9 @@
 }
 
 .footer__row {
-    background-color: rgb(167, 167, 167);
     height: 1px;
     margin: 20px 0px;
+    background-color: rgb(167, 167, 167);
 }
 
 .footer_links-container {
@@ -33,38 +33,32 @@
 .footer__text {
     margin: 10px 10px;
     font-weight: 400;
-    text-align: start;
 
     @media screen and (max-width: 700px) {
         flex-direction: column-reverse;
-        text-align: center;
-    }
-}
-
-.footer__link {
-    color: black;
-    margin: 10px 10px;
-    font-weight: 400;
-    text-align: start;
-    text-decoration: none;
-
-    @media screen and (max-width: 700px) {
-        flex-direction: column-reverse;
-        text-align: center;
     }
 }
 
 .footer__contacts {
     display: flex;
     flex-direction: row;
-    align-items: end;
-    justify-content: end;
 }
 
 .footer__link-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.footer__link {
+    margin: 10px;
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column-reverse;
+    }
 }
 
 .footer__logo {

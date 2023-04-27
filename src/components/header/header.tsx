@@ -38,7 +38,6 @@ function Header() {
                     <div className={menuOpen ? 'header__menu__blur active' : 'header__menu__blur'} onClick={menuHandler}></div>
                 </nav>
             }
-
         </header>
     )
 }

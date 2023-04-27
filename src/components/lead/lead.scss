@@ -11,7 +11,6 @@
     @media screen and (max-width: 720px) {
         flex-direction: column-reverse;
     }
-
 }
 
 .lead__info {
@@ -22,18 +21,18 @@
 }
 
 .lead__info__text {
+    margin: 10px 0;
     text-align: start;
     font-size: $textMinSize;
     font-weight: 400;
-    margin: 10px 0;
     line-height: 1.4;
 }
 
 .lead__info__title {
+    margin: 10px 0;
     text-align: start;
     font-size: $textLargeSize;
     font-weight: bold;
-    margin: 10px 0;
 
     @media screen and (max-width: 360px) {
         font-size: $textBigSize;
@@ -41,10 +40,10 @@
 }
 
 .lead__info__subtitle {
+    margin: 10px 0;
     text-align: start;
     font-size: $textBigSize;
     font-weight: 400;
-    margin: 10px 0;
 }
 
 
