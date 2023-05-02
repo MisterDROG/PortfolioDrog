@@ -1,6 +1,6 @@
 import './header.scss'
-import logo from '../../images/ProtfolioDrog.png'
-import menuButton from '../../images/hamburgerIcon.png'
+import logo from '../../images/icons/ProtfolioDrog.png'
+import menuButton from '../../images/icons/hamburgerIcon.png'
 import { useResize } from '../../utils/customHooks/useResize';
 import { useState } from 'react';
 import { Link as LinkScroll } from 'react-scroll'

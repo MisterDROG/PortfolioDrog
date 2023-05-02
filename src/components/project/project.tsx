@@ -1,5 +1,5 @@
 import './project.scss'
-import mocMobile from '../../images/mocMobile1.png'
+import mocMobile from '../../images/mocMobile.png'
 import { projectType } from '../../utils/generalTypes'
 
 interface projectProps {
@@ -24,7 +24,7 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
-                    <a className='project__link' href={props.project.webpageLink}>Open site</a>
+                    <a className='project__link' target='blanc' href={props.project.webpageLink}>Open site</a>
                 </div>
             </div>
 
@@ -40,7 +40,7 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
-                    <a className='project__link' href={props.project.githubLink}>Open GitHub</a>
+                    <a className='project__link' target='blanc' href={props.project.githubLink}>Open GitHub</a>
                 </div>
             </div>
         </div >

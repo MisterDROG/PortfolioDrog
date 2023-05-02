@@ -1,7 +1,7 @@
 import './footer.scss'
-import TGLogo from '../../images/TGLogo.png'
-import LNLogo from '../../images/LNLogo.png'
-import GitHubLogo from '../../images/GitHubLogo.png'
+import TGLogo from '../../images/icons/TGLogo.png'
+import LNLogo from '../../images/icons/LNLogo.png'
+import GitHubLogo from '../../images/icons/GitHubLogo.png'
 
 function Footer() {
 
