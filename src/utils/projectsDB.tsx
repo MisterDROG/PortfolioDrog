@@ -1,8 +1,11 @@
+import { projectType } from './generalTypes'
 import TodolloDesk from '../images/projectsImages/TodolloDesk.jpeg'
 import TodolloMob from '../images/projectsImages/TodolloMob.jpg'
 import HHTechParserDesk from '../images/projectsImages/HHTechParserDesk.gif'
 import HHTechParserMob from '../images/projectsImages/HHTechParserMob.png'
-import { projectType } from './generalTypes'
+import TFVMob from '../images/projectsImages/TFVMob.gif'
+import TFVDesk from '../images/projectsImages/TFVDesk.gif'
+
 
 export const porjectsDB: projectType[] = [
     {
@@ -49,6 +52,33 @@ export const porjectsDB: projectType[] = [
             'Pkg - for creating .exe file for using app without IDE'
         ],
         mobileImg: HHTechParserMob,
+        githubLink: 'https://github.com/MisterDROG/HHTechParser',
+        webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
+    },
+    {
+        name: 'Three Frontend Videos Daily',
+        id: 3,
+        about: 'YouTube videos are a good option to be up-to-date when you study programming. Unfortunately, YouTube does not always select the best, plus includes your other interests to recommendations. In this regard, I created a service that once a day publishes three front-end videos with high view ratio. It works like this:',
+        aboutPoints: [
+            'Every day backend parses preloaded YouTube channels',
+            'Adds three videos with best raiting (views/average number of views per channel)',
+            'User watches today best videos or can choose best for three previous days',
+            'Also user can click Randomize and get random videos from the entire accumulated database',
+            'Website also has a dark theme, help and support of mobile devices'
+        ],
+        desktopImg: TFVDesk,
+        techologies: 'create a completely independent project by writing both the front-end and the back-end part. Plus, find a well-working recommendation algorithm. Techs used:',
+        technologiesPoints: [
+            'Node.js',
+            'Express - for server creation',
+            'Puppeteer - as parsing library',
+            'Mongo - for database',
+            'Mongoose - for db management and schemas',
+            'React',
+            'React Router - for pages navigation',
+            'React Bootstrap - for fast styling',
+        ],
+        mobileImg: TFVMob,
         githubLink: 'https://github.com/MisterDROG/HHTechParser',
         webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
     },
