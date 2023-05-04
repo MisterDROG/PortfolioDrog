@@ -30,7 +30,7 @@ function Project(props: projectProps) {
 
             <div className='project__block-container'>
                 <div className='project__img-container'>
-                    <img className='project__mobile-img' style={{ backgroundImage: `url(${props.project.mobileImg})` }} src={mocMobile} alt="mobile screenshot" />
+                    <img className='project__mobile-img' style={{ backgroundImage: `url(${props.project.mobileImg})`, backgroundSize: `${props.project.mobileImgScale}` }} src={mocMobile} alt="mobile screenshot" />
                 </div>
                 <div className='project__text-container'>
                     <p className='project_subtitle'>TECHNOLOGIES</p>

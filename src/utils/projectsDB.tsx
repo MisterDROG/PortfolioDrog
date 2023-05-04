@@ -1,6 +1,6 @@
 import { projectType } from './generalTypes'
-import TodolloDesk from '../images/projectsImages/TodolloDesk.jpeg'
-import TodolloMob from '../images/projectsImages/TodolloMob.jpg'
+import TodolloDesk from '../images/projectsImages/TodolloDesk.gif'
+import TodolloMob from '../images/projectsImages/TodolloMob.gif'
 import HHTechParserDesk from '../images/projectsImages/HHTechParserDesk.gif'
 import HHTechParserMob from '../images/projectsImages/HHTechParserMob.png'
 import TFVMob from '../images/projectsImages/TFVMob.gif'
@@ -11,26 +11,26 @@ export const porjectsDB: projectType[] = [
     {
         name: 'ToDollo',
         id: 1,
-        about: 'to take the key function of Trello and make the most convenient application. As a result, were implemented:',
+        about: 'to take the key function of Trello and make the most convenient task manager for personal usage. As a result, in app were implemented:',
         aboutPoints: [
-            'Add/Delete task branches',
+            'Add/Delete for task branches',
             'Add/Delete/Marking completion of the tasks',
-            'Drag and drop tasks',
+            'Drag and drop for tasks',
             'Preloaders/Errors for loading the application, adding elements, deleting elements',
             'Adaptability for vertical screens'
         ],
         desktopImg: TodolloDesk,
-        techologies: 'to write the most scalable code using the most modern technologies:',
+        techologies: 'to write code with easy scalable functionality and use for it up-to-date front-end technologies:',
         technologiesPoints: [
             'Typescript + SCSS - for ease of development and code scaling',
             'Redux - for controlling the state of the application locally and synchronize data with the server',
             'RTK Toolkit + Query - for load status control, preloader/error creation, data caching',
-            'Preloaders/Errors - for loading the application, adding elements, deleting elements',
             'Firebase - for online data storage'
         ],
         mobileImg: TodolloMob,
-        githubLink: '',
-        webpageLink: '',
+        mobileImgScale: '94%',
+        githubLink: 'https://github.com/MisterDROG/todollo',
+        webpageLink: 'https://misterdrog.github.io/todollo/',
     },
     {
         name: 'HHTechParser',
@@ -52,6 +52,7 @@ export const porjectsDB: projectType[] = [
             'Pkg - for creating .exe file for using app without IDE'
         ],
         mobileImg: HHTechParserMob,
+        mobileImgScale: '90%',
         githubLink: 'https://github.com/MisterDROG/HHTechParser',
         webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
     },
@@ -79,6 +80,7 @@ export const porjectsDB: projectType[] = [
             'React Bootstrap - for fast styling',
         ],
         mobileImg: TFVMob,
+        mobileImgScale: '90%',
         githubLink: 'https://github.com/MisterDROG/HHTechParser',
         webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
     },
