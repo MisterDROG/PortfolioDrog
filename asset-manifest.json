@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/PortfolioDrog/static/css/main.5d410925.css",
-    "main.js": "/PortfolioDrog/static/js/main.a7d64de2.js",
+    "main.css": "/PortfolioDrog/static/css/main.bb0b4853.css",
+    "main.js": "/PortfolioDrog/static/js/main.8f565fb3.js",
     "static/js/787.ab79d92d.chunk.js": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js",
+    "static/media/TFVMob.gif": "/PortfolioDrog/static/media/TFVMob.d5674ad1edb72a7efced.gif",
+    "static/media/TodolloDesk.gif": "/PortfolioDrog/static/media/TodolloDesk.72b047afc7f1a5c6892b.gif",
+    "static/media/TodolloMob.gif": "/PortfolioDrog/static/media/TodolloMob.835f3e1fe92bd9dbd088.gif",
     "static/media/HHTechParserDesk.gif": "/PortfolioDrog/static/media/HHTechParserDesk.9c901c8099487d5f6206.gif",
+    "static/media/TFVDesk.gif": "/PortfolioDrog/static/media/TFVDesk.cc344dcd806330901a83.gif",
     "static/media/MyPhoto.png": "/PortfolioDrog/static/media/MyPhoto.95d3878048f0986a16df.png",
-    "static/media/HHTechParserMob.png": "/PortfolioDrog/static/media/HHTechParserMob.da38e7e0c514932ef25c.png",
+    "static/media/HHTechParserMob.png": "/PortfolioDrog/static/media/HHTechParserMob.5ca18fd170142f1dbfc6.png",
     "static/media/NodeJSLogo.png": "/PortfolioDrog/static/media/NodeJSLogo.fc3bd1ec69d7a50e685a.png",
     "static/media/BootstrapLogo.png": "/PortfolioDrog/static/media/BootstrapLogo.33d7305598a5734900d1.png",
     "static/media/CSSLogo.png": "/PortfolioDrog/static/media/CSSLogo.5d75302d7a0faa2ab418.png",
     "static/media/SASSLogo.png": "/PortfolioDrog/static/media/SASSLogo.7cdbf6b5889c42b3e490.png",
     "static/media/WebpackLogo.png": "/PortfolioDrog/static/media/WebpackLogo.3c3a924e2d23845b1ca6.png",
-    "static/media/TodolloDesk.jpeg": "/PortfolioDrog/static/media/TodolloDesk.fb6412ada4e943ec32df.jpeg",
     "static/media/HTML5Logo.png": "/PortfolioDrog/static/media/HTML5Logo.473d30acc2a0399a375b.png",
     "static/media/ReactLogo.png": "/PortfolioDrog/static/media/ReactLogo.1ce7b597e7ddb0fccde3.png",
-    "static/media/mocMobile.png": "/PortfolioDrog/static/media/mocMobile.b7ca2e01edda271226c5.png",
+    "static/media/mocMobile.png": "/PortfolioDrog/static/media/mocMobile.04cd8023fedcd91cb1ff.png",
     "static/media/NeueHaasDisplay-Bold.woff": "/PortfolioDrog/static/media/NeueHaasDisplay-Bold.29038274a4987f640323.woff",
     "static/media/NeueHaasDisplay-Light.woff": "/PortfolioDrog/static/media/NeueHaasDisplay-Light.0eefc6d925aa0e8fba55.woff",
     "static/media/TypescriptLogo.png": "/PortfolioDrog/static/media/TypescriptLogo.52ea0bc40ba11d507e7d.png",
@@ -22,18 +25,17 @@
     "static/media/NeueHaasDisplay-Light.woff2": "/PortfolioDrog/static/media/NeueHaasDisplay-Light.435fdb05812a97f0d5d7.woff2",
     "static/media/NeueHaasDisplay-Roman.woff2": "/PortfolioDrog/static/media/NeueHaasDisplay-Roman.a965aad874955a1dea7a.woff2",
     "static/media/hamburgerIcon.png": "/PortfolioDrog/static/media/hamburgerIcon.46723dd6327ddc8d113d.png",
-    "static/media/TodolloMob.jpg": "/PortfolioDrog/static/media/TodolloMob.14f1db68b69ef5061a84.jpg",
     "static/media/TGLogo.png": "/PortfolioDrog/static/media/TGLogo.b87936e218148ef33eb2.png",
     "static/media/ReduxLogo.png": "/PortfolioDrog/static/media/ReduxLogo.0d7561c0fbcd7e8dfc06.png",
     "static/media/RRouterLogo.png": "/PortfolioDrog/static/media/RRouterLogo.aa02b60f15abf4c56e27.png",
     "static/media/LNLogo.png": "/PortfolioDrog/static/media/LNLogo.af3f0c639abd231a3d18.png",
     "index.html": "/PortfolioDrog/index.html",
-    "main.5d410925.css.map": "/PortfolioDrog/static/css/main.5d410925.css.map",
-    "main.a7d64de2.js.map": "/PortfolioDrog/static/js/main.a7d64de2.js.map",
+    "main.bb0b4853.css.map": "/PortfolioDrog/static/css/main.bb0b4853.css.map",
+    "main.8f565fb3.js.map": "/PortfolioDrog/static/js/main.8f565fb3.js.map",
     "787.ab79d92d.chunk.js.map": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d410925.css",
-    "static/js/main.a7d64de2.js"
+    "static/css/main.bb0b4853.css",
+    "static/js/main.8f565fb3.js"
   ]
 }
