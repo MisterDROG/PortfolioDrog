@@ -30,6 +30,7 @@ export const porjectsDB: projectType[] = [
         mobileImg: TodolloMob,
         mobileImgScale: '94%',
         githubLink: 'https://github.com/MisterDROG/todollo',
+        githubLinkBackend: '',
         webpageLink: 'https://misterdrog.github.io/todollo/',
     },
     {
@@ -54,6 +55,7 @@ export const porjectsDB: projectType[] = [
         mobileImg: HHTechParserMob,
         mobileImgScale: '90%',
         githubLink: 'https://github.com/MisterDROG/HHTechParser',
+        githubLinkBackend: '',
         webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
     },
     {
@@ -68,20 +70,20 @@ export const porjectsDB: projectType[] = [
             'Website also has a dark theme, help and support of mobile devices'
         ],
         desktopImg: TFVDesk,
-        techologies: 'create a completely independent project by writing both the front-end and the back-end part. Plus, find a well-working recommendation algorithm. Techs used:',
+        techologies: 'create a completely independent project by writing both Frontend and Backend parts. Plus, find a well-working recommendation algorithm. Techs used:',
         technologiesPoints: [
-            'Node.js',
-            'Express - for server creation',
+            'Node.js + Express - for server creation',
             'Puppeteer - as parsing library',
             'Mongo - for database',
             'Mongoose - for db management and schemas',
-            'React',
+            'React - as frontend library',
             'React Router - for pages navigation',
             'React Bootstrap - for fast styling',
         ],
         mobileImg: TFVMob,
         mobileImgScale: '90%',
         githubLink: 'https://github.com/MisterDROG/HHTechParser',
-        webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
+        githubLinkBackend: 'https://github.com/MisterDROG/ThreeFrontendVideosBackend',
+        webpageLink: 'https://misterdrog.github.io/Three-Frontend-Videos-React/',
     },
 ]

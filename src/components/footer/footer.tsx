@@ -15,15 +15,15 @@ function Footer() {
                 </div>
                 <div className='footer__contacts'>
                     <div className='footer__link-container'>
-                        <a href="https://telegram.me/g_drag" target='blanc'><img className='footer__logo' src={TGLogo} alt="TG logo" /></a>
+                        <a href="https://telegram.me/g_drag" target='_blank'><img className='footer__logo' src={TGLogo} alt="TG logo" /></a>
                         <p className='footer__link'>@g_drag</p>
                     </div>
                     <div className='footer__link-container'>
-                        <a href="" target='blanc'><img className='footer__logo' src={LNLogo} alt="LN logo" /></a>
+                        <a href="" target='_blank'><img className='footer__logo' src={LNLogo} alt="LN logo" /></a>
                         <p className='footer__text'>/relLink</p>
                     </div>
                     <div className='footer__link-container'>
-                        <a href="https://github.com/MisterDROG" target='blanc'><img className='footer__logo' src={GitHubLogo} alt="GitHub logo" /></a>
+                        <a href="https://github.com/MisterDROG" target='_blank'><img className='footer__logo' src={GitHubLogo} alt="GitHub logo" /></a>
                         <p className='footer__text'>MrDROG</p>
                     </div>
                 </div>

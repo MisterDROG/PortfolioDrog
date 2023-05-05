@@ -24,7 +24,7 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
-                    <a className='project__link' target='blanc' href={props.project.webpageLink}>Open site</a>
+                    <a className='project__link' target='_blank' href={props.project.webpageLink}>Open site</a>
                 </div>
             </div>
 
@@ -40,7 +40,8 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
-                    <a className='project__link' target='blanc' href={props.project.githubLink}>Open GitHub</a>
+                    <a className='project__link' target='_blank' href={props.project.githubLink}>Open GitHub</a>
+                    {props.project.githubLinkBackend && <a className='project__link' target='_blank' href={props.project.githubLinkBackend}>Open GitHub Backend</a>}
                 </div>
             </div>
         </div >

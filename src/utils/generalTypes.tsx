@@ -9,5 +9,6 @@ export type projectType = {
     mobileImg: string,
     mobileImgScale: string;
     githubLink: string,
+    githubLinkBackend: string,
     webpageLink: string,
 }
