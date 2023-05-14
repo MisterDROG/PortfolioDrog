@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/PortfolioDrog/static/css/main.2df074b3.css",
-    "main.js": "/PortfolioDrog/static/js/main.ec9d368a.js",
+    "main.js": "/PortfolioDrog/static/js/main.2941592f.js",
     "static/js/787.ab79d92d.chunk.js": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js",
+    "static/media/BoizMob.gif": "/PortfolioDrog/static/media/BoizMob.96ac624716e283d022cc.gif",
+    "static/media/BoizDesk.gif": "/PortfolioDrog/static/media/BoizDesk.cfb289d0c19b0c747913.gif",
     "static/media/TFVMob.gif": "/PortfolioDrog/static/media/TFVMob.d5674ad1edb72a7efced.gif",
     "static/media/TodolloDesk.gif": "/PortfolioDrog/static/media/TodolloDesk.72b047afc7f1a5c6892b.gif",
     "static/media/TodolloMob.gif": "/PortfolioDrog/static/media/TodolloMob.835f3e1fe92bd9dbd088.gif",
@@ -31,11 +33,11 @@
     "static/media/LNLogo.png": "/PortfolioDrog/static/media/LNLogo.af3f0c639abd231a3d18.png",
     "index.html": "/PortfolioDrog/index.html",
     "main.2df074b3.css.map": "/PortfolioDrog/static/css/main.2df074b3.css.map",
-    "main.ec9d368a.js.map": "/PortfolioDrog/static/js/main.ec9d368a.js.map",
+    "main.2941592f.js.map": "/PortfolioDrog/static/js/main.2941592f.js.map",
     "787.ab79d92d.chunk.js.map": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2df074b3.css",
-    "static/js/main.ec9d368a.js"
+    "static/js/main.2941592f.js"
   ]
 }
