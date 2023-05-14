@@ -5,6 +5,8 @@ import HHTechParserDesk from '../images/projectsImages/HHTechParserDesk.gif'
 import HHTechParserMob from '../images/projectsImages/HHTechParserMob.png'
 import TFVMob from '../images/projectsImages/TFVMob.gif'
 import TFVDesk from '../images/projectsImages/TFVDesk.gif'
+import BoizMob from '../images/projectsImages/BoizMob.gif'
+import BoizDesk from '../images/projectsImages/BoizDesk.gif'
 
 
 export const porjectsDB: projectType[] = [
@@ -82,8 +84,35 @@ export const porjectsDB: projectType[] = [
         ],
         mobileImg: TFVMob,
         mobileImgScale: '90%',
-        githubLink: 'https://github.com/MisterDROG/HHTechParser',
+        githubLink: 'https://github.com/MisterDROG/Three-Frontend-Videos-React',
         githubLinkBackend: 'https://github.com/MisterDROG/ThreeFrontendVideosBackend',
         webpageLink: 'https://misterdrog.github.io/Three-Frontend-Videos-React/',
+    },
+    {
+        name: 'BOIZ Website',
+        id: 4,
+        about: 'commercial project to develop a website for a brewery in close cooperation with the owner. Customer planned to attract subscribers to their social networks through it. The following has been implemented so far: ',
+        aboutPoints: [
+            'Main page with a block about the company and recordings of webinars',
+            'Page with popular places of the world',
+            'Page with an overview of varieties of the main product',
+            'Page with the classification of sub products',
+            'Online shop with cart and search filters for the goods'
+        ],
+        desktopImg: BoizDesk,
+        techologies: 'create not only a website in terms of code, but also develop an attractive design and a comfortable user interface. Also establish teamwork with a second web developer. Techs used:',
+        technologiesPoints: [
+            'HTML5, CSS - as basic technologies',
+            'Grid/Flex layouts - for shops and inframes',
+            'JS ES6 - for scripts control',
+            'Adaptability - for mobile devices',
+            'Webpack 5 - for assets bundle',
+            'Figma - for creating design and logos',
+        ],
+        mobileImg: BoizMob,
+        mobileImgScale: '94%',
+        githubLink: 'https://github.com/MisterDROG/brewing_Drog-Dimdim',
+        githubLinkBackend: '',
+        webpageLink: 'https://misterdrog.github.io/brewing_Drog-Dimdim/',
     },
 ]
