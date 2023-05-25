@@ -9,7 +9,7 @@ interface projectProps {
 function Project(props: projectProps) {
 
     return (
-        <div className='project'>
+        <div className='project' key={props.project.id}>
             <p className='project__title'>{props.project.name}</p>
 
             <div className='project__block-container'>
@@ -24,7 +24,10 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
-                    <a className='project__link' target='_blank' href={props.project.webpageLink}>Open site</a>
+                    <div className='project__link-holder'>
+                        <a className='project__link' target='_blank' href={props.project.webpageLink}>Open site</a>
+                        <a className='project__link' target='_blank' href={props.project.videoLink}>Video review</a>
+                    </div>
                 </div>
             </div>
 
@@ -40,8 +43,10 @@ function Project(props: projectProps) {
                             return <li className='project__text'>{point}</li>
                         })}
                     </ul>
-                    <a className='project__link' target='_blank' href={props.project.githubLink}>Open GitHub</a>
-                    {props.project.githubLinkBackend && <a className='project__link' target='_blank' href={props.project.githubLinkBackend}>Open GitHub Backend</a>}
+                    <div className='project__link-holder'>
+                        <a className='project__link' target='_blank' href={props.project.githubLink}>Open GitHub</a>
+                        {props.project.githubLinkBackend && <a className='project__link' target='_blank' href={props.project.githubLinkBackend}>Open GitHub Backend</a>}
+                    </div>
                 </div>
             </div>
         </div >

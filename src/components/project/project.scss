@@ -56,11 +56,9 @@
 
 .project__mobile-img {
     max-width: 200px;
-    // background-size: 90%;
     border-radius: 32px;
     background-position: center;
     background-repeat: no-repeat;
-    // background-size: cover;
 }
 
 .project__text-container {
@@ -96,6 +94,13 @@
 
 .project__span {
     font-weight: bold;
+}
+
+.project__link-holder {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
 }
 
 .project__link {

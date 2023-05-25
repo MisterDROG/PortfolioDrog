@@ -11,4 +11,5 @@ export type projectType = {
     githubLink: string,
     githubLinkBackend: string,
     webpageLink: string,
+    videoLink: string,
 }

@@ -6,10 +6,11 @@
     align-items: center;
     max-width: 1200px;
     padding: 0 20px;
-    margin: 80px auto 30px;
+    margin: 150px auto 30px;
 
     @media screen and (max-width: 720px) {
         flex-direction: column-reverse;
+        margin: 80px auto 30px;
     }
 }
 

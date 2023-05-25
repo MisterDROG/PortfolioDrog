@@ -7,11 +7,13 @@ import TFVMob from '../images/projectsImages/TFVMob.gif'
 import TFVDesk from '../images/projectsImages/TFVDesk.gif'
 import BoizMob from '../images/projectsImages/BoizMob.gif'
 import BoizDesk from '../images/projectsImages/BoizDesk.gif'
+import SoHelloMob from '../images/projectsImages/SoHelloMob.gif'
+import SoHelloDesk from '../images/projectsImages/SoHelloDesk.gif'
 
 
 export const porjectsDB: projectType[] = [
     {
-        name: 'ToDollo',
+        name: '"ToDollo"',
         id: 1,
         about: 'to take the key function of Trello and make the most convenient task manager for personal usage. As a result, in app were implemented:',
         aboutPoints: [
@@ -32,11 +34,12 @@ export const porjectsDB: projectType[] = [
         mobileImg: TodolloMob,
         mobileImgScale: '94%',
         githubLink: 'https://github.com/MisterDROG/todollo',
+        videoLink: 'https://disk.yandex.ru/i/lDwJOfRaPUH0Yw',
         githubLinkBackend: '',
         webpageLink: 'https://misterdrog.github.io/todollo/',
     },
     {
-        name: 'HHTechParser',
+        name: '"HHTechParser"',
         id: 2,
         about: 'Since I try to be up-to-date with new technologies, I decided to write a program that, based on how often each technology occurs in vacancies, create rating for hard skills of IT specialists. The following describes how it works, and if you click "Open Site" button, the link to download .exe file from my GitHub will open. Welcome to try!',
         aboutPoints: [
@@ -57,11 +60,12 @@ export const porjectsDB: projectType[] = [
         mobileImg: HHTechParserMob,
         mobileImgScale: '90%',
         githubLink: 'https://github.com/MisterDROG/HHTechParser',
+        videoLink: 'https://disk.yandex.ru/i/xJNT4rdS3yY18w',
         githubLinkBackend: '',
         webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
     },
     {
-        name: 'Three Frontend Videos Daily',
+        name: '"Three Frontend Videos Daily"',
         id: 3,
         about: 'YouTube videos are a good option to be up-to-date when you study programming. Unfortunately, YouTube does not always select the best, plus includes your other interests to recommendations. In this regard, I created a service that once a day publishes three front-end videos with high view ratio. It works like this:',
         aboutPoints: [
@@ -79,17 +83,18 @@ export const porjectsDB: projectType[] = [
             'Mongo - for database',
             'Mongoose - for db management and schemas',
             'React - as frontend library',
-            'React Router - for pages navigation',
+            'React Router + Context - for pages navigation and night mode',
             'React Bootstrap - for fast styling',
         ],
         mobileImg: TFVMob,
         mobileImgScale: '90%',
         githubLink: 'https://github.com/MisterDROG/Three-Frontend-Videos-React',
+        videoLink: 'https://disk.yandex.ru/i/wS30-Safp4_N_w',
         githubLinkBackend: 'https://github.com/MisterDROG/ThreeFrontendVideosBackend',
         webpageLink: 'https://misterdrog.github.io/Three-Frontend-Videos-React/',
     },
     {
-        name: 'BOIZ Website',
+        name: '"BOIZ Website"',
         id: 4,
         about: 'commercial project to develop a website for a brewery in close cooperation with the owner. Customer planned to attract subscribers to their social networks through it. The following has been implemented so far: ',
         aboutPoints: [
@@ -112,7 +117,36 @@ export const porjectsDB: projectType[] = [
         mobileImg: BoizMob,
         mobileImgScale: '94%',
         githubLink: 'https://github.com/MisterDROG/brewing_Drog-Dimdim',
+        videoLink: 'https://disk.yandex.ru/i/sgWWIv-ql8whhA',
         githubLinkBackend: '',
         webpageLink: 'https://misterdrog.github.io/brewing_Drog-Dimdim/',
+    },
+    {
+        name: '"SoHello"',
+        id: 5,
+        about: 'commercial project to develop a service for finding new partners in a professional environment and hobby. The user registers, sets the area of interest, and potential partners are selected for him. With one of them he can contact and establish communication. Functions implemented: ',
+        aboutPoints: [
+            'Registration by mail',
+            'Sign in, sign out, delete account, change password',
+            'Personal account: editing personal data, changing the avatar, hiding the profile, changing interest',
+            'Selection by the service of a partner for the user',
+            'Help page with examples and contacts'
+        ],
+        desktopImg: SoHelloDesk,
+        techologies: 'carry out the development of the service in the team with product manager and backend developer. Create a simple and understandable interface that will allow a potential client to quickly move from the stage of acquaintance with the service to the first use. Techs used:',
+        technologiesPoints: [
+            'HTML5, CSS - as basic technologies',
+            'JS ES6 + Validator.js - for scripts control',
+            'Adaptability - for mobile devices',
+            'Webpack 5 - for assets bundle',
+            'Firebase Auth, Storage, Database - for backend',
+            'Figma - for creating design and logos',
+        ],
+        mobileImg: SoHelloMob,
+        mobileImgScale: '90%',
+        githubLink: 'https://github.com/MisterDROG/SoHello',
+        videoLink: 'https://disk.yandex.ru/i/9H9eI2iCMkZBLg',
+        githubLinkBackend: '',
+        webpageLink: 'https://sohello-app.web.app/',
     },
 ]
