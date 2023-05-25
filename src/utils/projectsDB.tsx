@@ -15,18 +15,18 @@ export const porjectsDB: projectType[] = [
     {
         name: '"ToDollo"',
         id: 1,
-        about: 'to take the key function of Trello and make the most convenient task manager for personal usage. As a result, in app were implemented:',
+        about: 'to take the key function of popular task tracker and create the most convenient app for personal usage. As a result, following was implemented:',
         aboutPoints: [
             'Add/Delete for task branches',
-            'Add/Delete/Marking completion of the tasks',
+            'Add/Delete/Marking completion for tasks',
             'Drag and drop for tasks',
             'Preloaders/Errors for loading the application, adding elements, deleting elements',
             'Adaptability for vertical screens'
         ],
         desktopImg: TodolloDesk,
-        techologies: 'to write code with easy scalable functionality and use for it up-to-date front-end technologies:',
+        techologies: 'to write code with easy scalable functionality and use up-to-date front-end technologies:',
         technologiesPoints: [
-            'Typescript + SCSS - for ease of development and code scaling',
+            'Typescript + SCSS - for convinient development and code scaling',
             'Redux - for controlling the state of the application locally and synchronize data with the server',
             'RTK Toolkit + Query - for load status control, preloader/error creation, data caching',
             'Firebase - for online data storage'
@@ -41,7 +41,7 @@ export const porjectsDB: projectType[] = [
     {
         name: '"HHTechParser"',
         id: 2,
-        about: 'Since I try to be up-to-date with new technologies, I decided to write a program that, based on how often each technology occurs in vacancies, create rating for hard skills of IT specialists. The following describes how it works, and if you click "Open Site" button, the link to download .exe file from my GitHub will open. Welcome to try!',
+        about: 'Since I try to be up-to-date with new technologies, I decided to write a program that, based on how often each technology occurs in vacancies, create rating for hard skills of IT specialists. The following describes how it works, and if you click "Open Site" button, the link to download .exe file will open. Feel free to try!',
         aboutPoints: [
             'User enters a vacancy that he is interested in',
             'Parser opens the site and compiles a list of vacancy links',
@@ -50,7 +50,7 @@ export const porjectsDB: projectType[] = [
             'Excel file exports (an example of the result can be seen in the picture below)'
         ],
         desktopImg: HHTechParserDesk,
-        techologies: 'to study the technology of parsing web-sites. In a short time to write a useful application for professional growth. The application should be comfortable for use by other people (work quickly, help with comments, show errors, conveniently upload results). For this I used:',
+        techologies: 'to study the technology of parsing web-sites. In a short time to write a useful application for professional growth. The application should be comfortable for any users (quick work, tips, errors display, easy-to-use results export). Techs used:',
         technologiesPoints: [
             'Node.js',
             'Puppeteer - as parsing library',
@@ -67,16 +67,16 @@ export const porjectsDB: projectType[] = [
     {
         name: '"Three Frontend Videos Daily"',
         id: 3,
-        about: 'YouTube videos are a good option to be up-to-date when you study programming. Unfortunately, YouTube does not always select the best, plus includes your other interests to recommendations. In this regard, I created a service that once a day publishes three front-end videos with high view ratio. It works like this:',
+        about: 'YouTube videos are a good option to be up-to-date when you study programming. Unfortunately, YouTube does not always select the best, plus includes your other interests to recommendations. In this regard, I created a service that once a day publishes three front-end videos with high view ratio. How it works:',
         aboutPoints: [
             'Every day backend parses preloaded YouTube channels',
             'Adds three videos with best raiting (views/average number of views per channel)',
-            'User watches today best videos or can choose best for three previous days',
+            'User watches todays best videos or can choose best of three previous days',
             'Also user can click Randomize and get random videos from the entire accumulated database',
-            'Website also has a dark theme, help and support of mobile devices'
+            'Website also has a dark theme, help page and supports mobile devices'
         ],
         desktopImg: TFVDesk,
-        techologies: 'create a completely independent project by writing both Frontend and Backend parts. Plus, find a well-working recommendation algorithm. Techs used:',
+        techologies: 'to create a completely independent project by writing both Frontend and Backend parts. Plus, to find a good-working recommendation algorithm. Techs used:',
         technologiesPoints: [
             'Node.js + Express - for server creation',
             'Puppeteer - as parsing library',
@@ -96,16 +96,16 @@ export const porjectsDB: projectType[] = [
     {
         name: '"BOIZ Website"',
         id: 4,
-        about: 'commercial project to develop a website for a brewery in close cooperation with the owner. Customer planned to attract subscribers to their social networks through it. The following has been implemented so far: ',
+        about: 'commercial project to develop brewery website in close cooperation with the owner. The clients goal is to show his vision of the industry and create the community using this website. The following has been implemented: ',
         aboutPoints: [
             'Main page with a block about the company and recordings of webinars',
-            'Page with popular places of the world',
-            'Page with an overview of varieties of the main product',
-            'Page with the classification of sub products',
+            'Page with popular beer places',
+            'Page with an overview of main product types',
+            'Page with the sub products classification',
             'Online shop with cart and search filters for the goods'
         ],
         desktopImg: BoizDesk,
-        techologies: 'create not only a website in terms of code, but also develop an attractive design and a comfortable user interface. Also establish teamwork with a second web developer. Techs used:',
+        techologies: 'create not only a website in terms of code, but also develop an attractive design and a comfortable user interface. The second goal was to establish teamwork with a second web developer. Techs used:',
         technologiesPoints: [
             'HTML5, CSS - as basic technologies',
             'Grid/Flex layouts - for shops and inframes',
@@ -124,16 +124,16 @@ export const porjectsDB: projectType[] = [
     {
         name: '"SoHello"',
         id: 5,
-        about: 'commercial project to develop a service for finding new partners in a professional environment and hobby. The user registers, sets the area of interest, and potential partners are selected for him. With one of them he can contact and establish communication. Functions implemented: ',
+        about: 'commercial project to develop a service for finding new partners in a professional environment and hobby. The user registers, sets the area of interests, and potential partners are selected for him. With one of them he can contact and establish communication. Functions implemented: ',
         aboutPoints: [
-            'Registration by mail',
-            'Sign in, sign out, delete account, change password',
-            'Personal account: editing personal data, changing the avatar, hiding the profile, changing interest',
-            'Selection by the service of a partner for the user',
-            'Help page with examples and contacts'
+            'Registration by email',
+            'Sign in, sign out, change password, delete account',
+            'Personal account: editing personal data, changing the avatar, hiding the profile, changing the interest',
+            'Finding a partner for the user',
+            'Help page with instructions and contacts'
         ],
         desktopImg: SoHelloDesk,
-        techologies: 'carry out the development of the service in the team with product manager and backend developer. Create a simple and understandable interface that will allow a potential client to quickly move from the stage of acquaintance with the service to the first use. Techs used:',
+        techologies: 'to carry out the development of the service in the team of product manager and backend developer. Create a simple and understandable interface that will allow a potential client to make a quick transition from the first sight to the first use. Techs used:',
         technologiesPoints: [
             'HTML5, CSS - as basic technologies',
             'JS ES6 + Validator.js - for scripts control',
