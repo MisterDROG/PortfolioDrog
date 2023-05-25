@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/PortfolioDrog/static/css/main.2df074b3.css",
-    "main.js": "/PortfolioDrog/static/js/main.2941592f.js",
+    "main.css": "/PortfolioDrog/static/css/main.0aba3123.css",
+    "main.js": "/PortfolioDrog/static/js/main.6ae2af5e.js",
     "static/js/787.ab79d92d.chunk.js": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js",
     "static/media/BoizMob.gif": "/PortfolioDrog/static/media/BoizMob.96ac624716e283d022cc.gif",
     "static/media/BoizDesk.gif": "/PortfolioDrog/static/media/BoizDesk.cfb289d0c19b0c747913.gif",
     "static/media/TFVMob.gif": "/PortfolioDrog/static/media/TFVMob.d5674ad1edb72a7efced.gif",
+    "static/media/SoHelloMob.gif": "/PortfolioDrog/static/media/SoHelloMob.b73995680ee4ce66acf9.gif",
     "static/media/TodolloDesk.gif": "/PortfolioDrog/static/media/TodolloDesk.72b047afc7f1a5c6892b.gif",
     "static/media/TodolloMob.gif": "/PortfolioDrog/static/media/TodolloMob.835f3e1fe92bd9dbd088.gif",
     "static/media/HHTechParserDesk.gif": "/PortfolioDrog/static/media/HHTechParserDesk.9c901c8099487d5f6206.gif",
     "static/media/TFVDesk.gif": "/PortfolioDrog/static/media/TFVDesk.cc344dcd806330901a83.gif",
+    "static/media/SoHelloDesk.gif": "/PortfolioDrog/static/media/SoHelloDesk.e732c1a28ff023aec440.gif",
     "static/media/MyPhoto.png": "/PortfolioDrog/static/media/MyPhoto.95d3878048f0986a16df.png",
     "static/media/HHTechParserMob.png": "/PortfolioDrog/static/media/HHTechParserMob.5ca18fd170142f1dbfc6.png",
     "static/media/NodeJSLogo.png": "/PortfolioDrog/static/media/NodeJSLogo.fc3bd1ec69d7a50e685a.png",
@@ -32,12 +34,12 @@
     "static/media/RRouterLogo.png": "/PortfolioDrog/static/media/RRouterLogo.aa02b60f15abf4c56e27.png",
     "static/media/LNLogo.png": "/PortfolioDrog/static/media/LNLogo.af3f0c639abd231a3d18.png",
     "index.html": "/PortfolioDrog/index.html",
-    "main.2df074b3.css.map": "/PortfolioDrog/static/css/main.2df074b3.css.map",
-    "main.2941592f.js.map": "/PortfolioDrog/static/js/main.2941592f.js.map",
+    "main.0aba3123.css.map": "/PortfolioDrog/static/css/main.0aba3123.css.map",
+    "main.6ae2af5e.js.map": "/PortfolioDrog/static/js/main.6ae2af5e.js.map",
     "787.ab79d92d.chunk.js.map": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2df074b3.css",
-    "static/js/main.2941592f.js"
+    "static/css/main.0aba3123.css",
+    "static/js/main.6ae2af5e.js"
   ]
 }
