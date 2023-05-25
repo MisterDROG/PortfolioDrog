@@ -9,7 +9,7 @@ interface projectProps {
 function Project(props: projectProps) {
 
     return (
-        <div className='project' key={props.project.id}>
+        <div className='project'>
             <p className='project__title'>{props.project.name}</p>
 
             <div className='project__block-container'>
@@ -20,8 +20,8 @@ function Project(props: projectProps) {
                     <p className='project_subtitle'>ABOUT</p>
                     <p className='project__text'><span className='project__span'>The main project goal: </span>{props.project.about}</p>
                     <ul className='project__ul-text'>
-                        {props.project.aboutPoints.map(point => {
-                            return <li className='project__text'>{point}</li>
+                        {props.project.aboutPoints.map((point, index) => {
+                            return <li className='project__text' key={index}>{point}</li>
                         })}
                     </ul>
                     <div className='project__link-holder'>
@@ -39,8 +39,8 @@ function Project(props: projectProps) {
                     <p className='project_subtitle'>TECHNOLOGIES</p>
                     <p className='project__text'><span className='project__span'>The main technical goal: </span>{props.project.techologies}</p>
                     <ul className='project__ul-text'>
-                        {props.project.technologiesPoints.map(point => {
-                            return <li className='project__text'>{point}</li>
+                        {props.project.technologiesPoints.map((point, index) => {
+                            return <li className='project__text' key={index}>{point}</li>
                         })}
                     </ul>
                     <div className='project__link-holder'>
