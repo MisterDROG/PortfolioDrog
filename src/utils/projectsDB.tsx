@@ -39,34 +39,8 @@ export const porjectsDB: projectType[] = [
         webpageLink: 'https://misterdrog.github.io/todollo/',
     },
     {
-        name: '"HHTechParser"',
-        id: 2,
-        about: 'Since I try to be up-to-date with new technologies, I decided to write a program that, based on how often each technology occurs in vacancies, create rating for hard skills of IT specialists. The following describes how it works, and if you click "Open Site" button, the link to download .exe file will open. Feel free to try!',
-        aboutPoints: [
-            'User enters a vacancy that he is interested in',
-            'Parser opens the site and compiles a list of vacancy links',
-            'After reviewing each, he pulls out all the available technologies',
-            'Creates ranking based on the number of mentions',
-            'Excel file exports (an example of the result can be seen in the picture below)'
-        ],
-        desktopImg: HHTechParserDesk,
-        techologies: 'to study the technology of parsing web-sites. In a short time to write a useful application for professional growth. The application should be comfortable for any users (quick work, tips, errors display, easy-to-use results export). Techs used:',
-        technologiesPoints: [
-            'Node.js',
-            'Puppeteer - as parsing library',
-            'Exeljs - for export results to Excel',
-            'Pkg - for creating .exe file for using app without IDE'
-        ],
-        mobileImg: HHTechParserMob,
-        mobileImgScale: '90%',
-        githubLink: 'https://github.com/MisterDROG/HHTechParser',
-        videoLink: 'https://disk.yandex.ru/i/xJNT4rdS3yY18w',
-        githubLinkBackend: '',
-        webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
-    },
-    {
         name: '"Three Frontend Videos Daily"',
-        id: 3,
+        id: 2,
         about: 'YouTube videos are a good option to be up-to-date when you study programming. Unfortunately, YouTube does not always select the best, plus includes your other interests to recommendations. In this regard, I created a service that once a day publishes three front-end videos with high view ratio. How it works:',
         aboutPoints: [
             'Every day backend parses preloaded YouTube channels',
@@ -94,36 +68,8 @@ export const porjectsDB: projectType[] = [
         webpageLink: 'https://misterdrog.github.io/Three-Frontend-Videos-React/',
     },
     {
-        name: '"BOIZ Website"',
-        id: 4,
-        about: 'commercial project to develop brewery website in close cooperation with the owner. The clients goal is to show his vision of the industry and create the community using this website. The following has been implemented: ',
-        aboutPoints: [
-            'Main page with a block about the company and recordings of webinars',
-            'Page with popular beer places',
-            'Page with an overview of main product types',
-            'Page with the sub products classification',
-            'Online shop with cart and search filters for the goods'
-        ],
-        desktopImg: BoizDesk,
-        techologies: 'create not only a website in terms of code, but also develop an attractive design and a comfortable user interface. The second goal was to establish teamwork with a second web developer. Techs used:',
-        technologiesPoints: [
-            'HTML5, CSS - as basic technologies',
-            'Grid/Flex layouts - for shops and inframes',
-            'JS ES6 - for scripts control',
-            'Adaptability - for mobile devices',
-            'Webpack 5 - for assets bundle',
-            'Figma - for creating design and logos',
-        ],
-        mobileImg: BoizMob,
-        mobileImgScale: '94%',
-        githubLink: 'https://github.com/MisterDROG/brewing_Drog-Dimdim',
-        videoLink: 'https://disk.yandex.ru/i/sgWWIv-ql8whhA',
-        githubLinkBackend: '',
-        webpageLink: 'https://misterdrog.github.io/brewing_Drog-Dimdim/',
-    },
-    {
         name: '"SoHello"',
-        id: 5,
+        id: 3,
         about: 'commercial project to develop a service for finding new partners in a professional environment and hobby. The user registers, sets the area of interests, and potential partners are selected for him. With one of them he can contact and establish communication. Functions implemented: ',
         aboutPoints: [
             'Registration by email',
@@ -149,4 +95,59 @@ export const porjectsDB: projectType[] = [
         githubLinkBackend: '',
         webpageLink: 'https://sohello-app.web.app/',
     },
+    {
+        name: '"HHTechParser"',
+        id: 4,
+        about: 'Since I try to be up-to-date with new technologies, I decided to write a program that, based on how often each technology occurs in vacancies, create rating for hard skills of IT specialists. The following describes how it works, and if you click "Open Site" button, the link to download .exe file will open. Feel free to try!',
+        aboutPoints: [
+            'User enters a vacancy that he is interested in',
+            'Parser opens the site and compiles a list of vacancy links',
+            'After reviewing each, he pulls out all the available technologies',
+            'Creates ranking based on the number of mentions',
+            'Excel file exports (an example of the result can be seen in the picture below)'
+        ],
+        desktopImg: HHTechParserDesk,
+        techologies: 'to study the technology of parsing web-sites. In a short time to write a useful application for professional growth. The application should be comfortable for any users (quick work, tips, errors display, easy-to-use results export). Techs used:',
+        technologiesPoints: [
+            'Node.js',
+            'Puppeteer - as parsing library',
+            'Exeljs - for export results to Excel',
+            'Pkg - for creating .exe file for using app without IDE'
+        ],
+        mobileImg: HHTechParserMob,
+        mobileImgScale: '90%',
+        githubLink: 'https://github.com/MisterDROG/HHTechParser',
+        videoLink: 'https://disk.yandex.ru/i/xJNT4rdS3yY18w',
+        githubLinkBackend: '',
+        webpageLink: 'https://github.com/MisterDROG/HHTechParser/tree/master/exeFilesForUsers',
+    },
+    {
+        name: '"BOIZ Website"',
+        id: 5,
+        about: 'commercial project to develop brewery website in close cooperation with the owner. The clients goal is to show his vision of the industry and create the community using this website. The following has been implemented: ',
+        aboutPoints: [
+            'Main page with a block about the company and recordings of webinars',
+            'Page with popular beer places',
+            'Page with an overview of main product types',
+            'Page with the sub products classification',
+            'Online shop with cart and search filters for the goods'
+        ],
+        desktopImg: BoizDesk,
+        techologies: 'create not only a website in terms of code, but also develop an attractive design and a comfortable user interface. The second goal was to establish teamwork with a second web developer. Techs used:',
+        technologiesPoints: [
+            'HTML5, CSS - as basic technologies',
+            'Grid/Flex layouts - for shops and inframes',
+            'JS ES6 - for scripts control',
+            'Adaptability - for mobile devices',
+            'Webpack 5 - for assets bundle',
+            'Figma - for creating design and logos',
+        ],
+        mobileImg: BoizMob,
+        mobileImgScale: '94%',
+        githubLink: 'https://github.com/MisterDROG/brewing_Drog-Dimdim',
+        videoLink: 'https://disk.yandex.ru/i/sgWWIv-ql8whhA',
+        githubLinkBackend: '',
+        webpageLink: 'https://misterdrog.github.io/brewing_Drog-Dimdim/',
+    },
+
 ]
