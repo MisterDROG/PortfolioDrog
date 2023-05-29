@@ -14,7 +14,7 @@ function Lead() {
                 <p className='lead__info__text'>Most of all I appreciate WIN-WIN cooperation. From my part, I always try to dive deep into the project to constatnly deliver value for the company. In projects I'm looking for challenges and opportunities to improve my skills.</p>
                 <p className='lead__info__text'>This Portfolio helps me to represent my projects and get in touch with me. Feel free to check it out!</p>
                 <div className='lead__info__link-container'>
-                    <a className='lead__info__link' target='_blank' href='https://docs.google.com/document/d/1YeKjZl2yOtwuFuFGLMII5-mF98bF1GZ7XcCSACxD6aQ/edit'>Download CV</a>
+                    <a className='lead__info__link' target='_blank' href='https://docs.google.com/document/d/1UYblusSnsxVt1N9fNQoG0SedMsMpz7tlZarAhW37rt4/edit?usp=sharing'>Download CV</a>
                     <LinkScroll className='lead__info__link' to='contacts' spy={true} smooth={true} offset={-70} duration={500}>Contacts</LinkScroll>
                 </div>
             </div>
