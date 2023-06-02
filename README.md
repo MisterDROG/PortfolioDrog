@@ -10,12 +10,12 @@ Most of all I appreciate WIN-WIN cooperation. From my part, I always try to dive
 
 This Portfolio helps me to represent my projects and get in touch with me.
 
-Link to portfolio:
-
-https://misterdrog.github.io/PortfolioDrog/
-
 Link CV:
 
 https://docs.google.com/document/d/1UYblusSnsxVt1N9fNQoG0SedMsMpz7tlZarAhW37rt4/edit?usp=sharing
+
+Link to portfolio:
+
+https://misterdrog.github.io/PortfolioDrog/
 
 Thank you!
