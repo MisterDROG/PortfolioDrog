@@ -9,6 +9,7 @@ import ReduxLogo from '../../images/techsLogos/ReduxLogo.png'
 import WebpackLogo from '../../images/techsLogos/WebpackLogo.png'
 import NodeJSLogo from '../../images/techsLogos/NodeJSLogo.png'
 import BootstrapLogo from '../../images/techsLogos/BootstrapLogo.png'
+import JestLogo from '../../images/techsLogos/JestLogo.png'
 import FigmaLogo from '../../images/techsLogos/FigmaLogo.png'
 
 function StackHolder() {
@@ -27,6 +28,7 @@ function StackHolder() {
                 <img className='stack-holder__tech-holder__img' src={BootstrapLogo} alt="Bootstrap logo" />
                 <img className='stack-holder__tech-holder__img' src={NodeJSLogo} alt="NodeJS logo" />
                 <img className='stack-holder__tech-holder__img' src={WebpackLogo} alt="Webpack logo" />
+                <img className='stack-holder__tech-holder__img' src={JestLogo} alt="Jest logo" />
                 <img className='stack-holder__tech-holder__img' src={FigmaLogo} alt="Webpack logo" />
             </div>
         </section>
