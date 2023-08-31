@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioDrog/static/css/main.0aba3123.css",
-    "main.js": "/PortfolioDrog/static/js/main.f442225f.js",
+    "main.js": "/PortfolioDrog/static/js/main.c525c58c.js",
     "static/js/787.ab79d92d.chunk.js": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js",
     "static/media/BoizMob.gif": "/PortfolioDrog/static/media/BoizMob.96ac624716e283d022cc.gif",
     "static/media/BoizDesk.gif": "/PortfolioDrog/static/media/BoizDesk.cfb289d0c19b0c747913.gif",
@@ -24,6 +24,7 @@
     "static/media/mocMobile.png": "/PortfolioDrog/static/media/mocMobile.04cd8023fedcd91cb1ff.png",
     "static/media/NeueHaasDisplay-Bold.woff": "/PortfolioDrog/static/media/NeueHaasDisplay-Bold.29038274a4987f640323.woff",
     "static/media/NeueHaasDisplay-Light.woff": "/PortfolioDrog/static/media/NeueHaasDisplay-Light.0eefc6d925aa0e8fba55.woff",
+    "static/media/JestLogo.png": "/PortfolioDrog/static/media/JestLogo.8749c16f8c2358c22bcf.png",
     "static/media/TypescriptLogo.png": "/PortfolioDrog/static/media/TypescriptLogo.52ea0bc40ba11d507e7d.png",
     "static/media/NeueHaasDisplay-Bold.woff2": "/PortfolioDrog/static/media/NeueHaasDisplay-Bold.aca09cd4c0d4932cca66.woff2",
     "static/media/NeueHaasDisplay-Light.woff2": "/PortfolioDrog/static/media/NeueHaasDisplay-Light.435fdb05812a97f0d5d7.woff2",
@@ -36,11 +37,11 @@
     "static/media/LNLogo.png": "/PortfolioDrog/static/media/LNLogo.af3f0c639abd231a3d18.png",
     "index.html": "/PortfolioDrog/index.html",
     "main.0aba3123.css.map": "/PortfolioDrog/static/css/main.0aba3123.css.map",
-    "main.f442225f.js.map": "/PortfolioDrog/static/js/main.f442225f.js.map",
+    "main.c525c58c.js.map": "/PortfolioDrog/static/js/main.c525c58c.js.map",
     "787.ab79d92d.chunk.js.map": "/PortfolioDrog/static/js/787.ab79d92d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0aba3123.css",
-    "static/js/main.f442225f.js"
+    "static/js/main.c525c58c.js"
   ]
 }
