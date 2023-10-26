@@ -11,6 +11,7 @@ import NodeJSLogo from '../../images/techsLogos/NodeJSLogo.png'
 import BootstrapLogo from '../../images/techsLogos/BootstrapLogo.png'
 import JestLogo from '../../images/techsLogos/JestLogo.png'
 import FigmaLogo from '../../images/techsLogos/FigmaLogo.png'
+import SvelteLogo from '../../images/techsLogos/SvelteLogo.png'
 
 function StackHolder() {
 
@@ -25,6 +26,7 @@ function StackHolder() {
                 <img className='stack-holder__tech-holder__img' src={ReactLogo} alt="React logo" />
                 <img className='stack-holder__tech-holder__img' src={ReactRouterLogo} alt="ReactRouter logo" />
                 <img className='stack-holder__tech-holder__img' src={ReduxLogo} alt="Redux logo" />
+                <img className='stack-holder__tech-holder__img' src={SvelteLogo} alt="Svelte logo" />
                 <img className='stack-holder__tech-holder__img' src={BootstrapLogo} alt="Bootstrap logo" />
                 <img className='stack-holder__tech-holder__img' src={NodeJSLogo} alt="NodeJS logo" />
                 <img className='stack-holder__tech-holder__img' src={WebpackLogo} alt="Webpack logo" />
